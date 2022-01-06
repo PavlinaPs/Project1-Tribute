@@ -1,7 +1,7 @@
 #body {
     margin: 0;
     background-image: url("/Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight90.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: #f8f7c9;
 }

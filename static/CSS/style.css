@@ -1,14 +1,18 @@
 #body {
     margin: 0;
+    background-image: url("/Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f8f7c9;
 }
 
 #main {
     font-family: 'Yaldevi', arial;
     font-size: 12pt;
     color: #231206;
-    background-image: url("Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;position: relative;
+    
+    
+    position: relative;
     top: 0;
     }
 

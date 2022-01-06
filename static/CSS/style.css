@@ -3,7 +3,6 @@
     background-image: url("/Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight90.jpg");
     background-repeat: repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-color: #f8f7c9;
 }
 
@@ -11,8 +10,6 @@
     font-family: 'Yaldevi', arial;
     font-size: 12pt;
     color: #231206;
-    
-    
     position: relative;
     top: 0;
     }
@@ -42,8 +39,6 @@
 
 .grid-container {
     display: grid;
-    /* grid-template-columns: auto 1fr; */
-    /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
     grid-column-gap: 30px;
     position: relative;
     grid-template-areas: 
@@ -58,7 +53,6 @@
 }
 
 .grid-item2 {
-    /* margin-top: 12px; */
     align-self: center;
     grid-area: item2;
 }
@@ -66,8 +60,6 @@
 @media (max-width: 700px) {
     .grid-container {
         display: grid;
-        /* grid-template-columns: 1fr;
-        grid-row-gap: 10px; */
         grid-template-areas: 
         "item1"
         "item2";

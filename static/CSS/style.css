@@ -1,7 +1,7 @@
 #body {
     margin: 0;
-    background-image: url("/Project1-Tribute/static/images/backgroundOldFashionedNewspaperLighter.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight90.jpg");
+    background-repeat: repeat;
     background-size: cover;
     background-color: #f8f7c9;
 }
@@ -70,10 +70,14 @@
         grid-template-areas: 
         "item1"
         "item2";
-        
     }
+
     .grid-container > .grid-item2 {
         padding-left: 20px;
+    }
+
+    body {
+        background-size: auto;
     }
 }
 

@@ -1,0 +1,112 @@
+#body {
+    margin: 0;
+}
+
+#main {
+    font-family: 'Yaldevi', arial;
+    font-size: 12pt;
+    color: #231206;
+    background-image: url("Project1-Tribute/static/images/backgroundOldFashionedNewspaperLight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;position: relative;
+    top: 0;
+    }
+
+#title {
+    font-family: 'Ephesis', arial;
+    font-size: 36pt;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: -5px;
+    position: relative;
+    padding-top: 10px;
+}
+
+#pronounciation {
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: auto 1fr; */
+    /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
+    grid-column-gap: 30px;
+    position: relative;
+    grid-template-areas: 
+        "item1 item2";
+    }
+
+.grid-item1 {
+    margin-top: 15px;
+    align-self: start;
+    justify-self: center;
+    grid-area: item1;
+}
+
+.grid-item2 {
+    /* margin-top: 12px; */
+    align-self: center;
+    grid-area: item2;
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        display: grid;
+        /* grid-template-columns: 1fr;
+        grid-row-gap: 10px; */
+        grid-template-areas: 
+        "item1"
+        "item2";
+        
+    }
+    .grid-container > .grid-item2 {
+        padding-left: 20px;
+    }
+}
+
+#image-div {
+    margin-left: 20px;
+    position: relative;
+}
+
+#image {
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #231206;
+    border-radius: 2%;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#img-caption {
+    font-size: 10pt;
+    text-align:justify;
+    width: 305px;
+    position: relative;
+}
+
+#tribute-info-no-block {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#bullets {
+    line-height: 180%;
+    position: relative;
+}
+
+#tribute-link:hover {
+    color:coral;
+}

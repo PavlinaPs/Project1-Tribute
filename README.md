@@ -25,8 +25,8 @@ This is a solution to the freeCodeCamp's [Build a Tribute Page](https://www.free
 
 ### Screenshot
 
-![Desktop layout](./screenshot.jpg)
-![Mobile layout](./screenshot.jpg)
+![Desktop layout](./screenshot-desktop.jpg)
+![Mobile layout](./screenshot-mobile.jpg)
 
 ### Links
 

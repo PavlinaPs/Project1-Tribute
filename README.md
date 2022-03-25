@@ -25,10 +25,13 @@ This is a solution to the freeCodeCamp's [Build a Tribute Page](https://www.free
 
 ### Screenshot
 
-- Desktop layout
+| Desktop layout |
+|:--:|
 ![Desktop layout](./screenshot-desktop.jpg)
 
-- Mobile layout
+
+| Mobile layout |
+|:--:|
 ![Mobile layout](./screenshot-mobile.jpg)
 
 ### Links
